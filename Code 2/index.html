@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>404 - Bu Səhifə Tapılmadı</title>
+  <style>
+    /* Add some styling for the error message */
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .error-image {
+      display: block;
+      margin: auto;
+      width: 500px;
+      height: 500px;
+    }
+    .error-message {
+      color: red;
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+    .redirect-message {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="error-image" src="https://wpklik.com/wp-content/uploads/2019/03/A-404-Page-Best-Practices-and-Design-Inspiration.jpg" alt="404 foto">
+    <h1 class="error-message">404 - Bu Səhifə Tapılmadı</h1>
+    <p class="redirect-message">Bu səhifəni tapmaq mümkün olmadı. Zəhmət olmasa başqa səhifəyə keçin.</p>
+    <p id="timer" class="redirect-message">10 saniyəyə yönləndiriləcəksiniz...</p>
+  </div>
+  <script>
+    var seconds = 10;
+    var intervalId = setInterval(function() {
+      seconds--;
+      document.getElementById("timer").innerHTML = seconds + " saniyəyə yönləndiriləcəksiniz..";
+      if (seconds === 0) {
+        clearInterval(intervalId);
+        window.location.replace("index.html");
+      }
+    }, 1000);
+  </script>
+</body>
+</html>

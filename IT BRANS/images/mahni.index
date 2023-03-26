@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" />
+	<link href="../images/logo2.png" rel="shortcut icon" type="image/x-icon" />
+	<title>TABRIZ</title>
+</head>
+<body>
+<p>
+<audio autoplay="" loop=""><source src="mahni.mp3" type="audio/mpeg" /> Mahni avtomatik problemi isleyir</audio>
+<!-- 
+    <h1>Hello World</h1>
+<span>Hello baku</span> --></p>
+
+<header>
+<div><img alt="Əsas səhfə" class="logo" src="https://itbrains.edu.az/src/img/logo/logo.png" title="Əsas səhfə" /></div>
+
+<div class="linkler"><!-- alt shift asagi ox --><a class="custom-btn btn-5" href="#" target="front"><span>Oyunlar</span></a> <a class="custom-btn btn-5" href="#" target="front"><span>ƏS</span></a> <a class="custom-btn btn-5" href="#" target="front"><span>Crack</span></a> <a class="custom-btn btn-5" href="./covid19.html" target="front"><span>Mobile</span></a> <a class="custom-btn btn-5" href="./covid19.html" target="front"><span>&Ccedil;eşid</span></a></div>
+<!-- <iframe width="500" height=500" frameborder="0" name="front" src="./covid19.html" class="iframe" scrolling="no"></iframe> --></header>
+</body>
+</html>
