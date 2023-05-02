@@ -1,0 +1,1216 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto';
+}
+
+:root {
+  --sari: #FF8A56 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none !important;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+header .logo {
+  font-size: 3rem;
+  color: #333;
+  font-weight: bolder;
+}
+
+header .logo span {
+  color: var(--sari);
+}
+
+header .logo:hover {
+  color: var(--sari);
+}
+
+header .navbar a {
+  font-size: 2rem;
+  padding-right: 20px;
+  color: #666;
+}
+
+header .navbar a:hover {
+  color: var(--sari);
+}
+
+header #toggler {
+  display: none;
+}
+
+header .fa-bars {
+  font-size: 3rem;
+  color: #333;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  border: .1rem solid rgba(0, 0, 0, .1);
+  display: none;
+}
+
+
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+}
+
+.home .intro-left {
+  max-width: 50rem;
+}
+
+.home .intro-left h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  ;
+  color: #333;
+  padding: 1rem 0;
+  line-height: 1.3;
+}
+
+.home .intro-left span {
+  color: var(--sari);
+}
+
+.home .intro-left p {
+  font-size: 1.5rem;
+  color: #999;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.home .intro-right {
+  padding-top: 120px;
+  /* padding-left: 178px; */
+  min-width: 400px;
+}
+
+.my-button {
+  background-color: #fff;
+  color: #222;
+
+  border: 2px solid #222;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 151px;
+  height: 58px;
+  margin-right: 38px;
+  font-weight: bold;
+
+}
+
+.my-button:hover {
+  background-color: #FF8A56;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px gray;
+  transition: box-shadow 0.3s ease;
+}
+
+.book-a-call {
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.cv {
+  color: #000;
+  font-size: 1.5rem;
+
+
+}
+
+section .cv:hover {
+  color: var(--sari);
+}
+
+.imc {
+  margin-left: 14px;
+
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+
+}
+
+.trusdet-companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  padding-left: 10rem;
+}
+
+.trusdet-companies .trusted-company {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 25rem;
+}
+
+.headings {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  color: var(--sari);
+}
+
+.headings2 {
+  text-align: center;
+  align-items: center;
+  font-size: 44px;
+  font-weight: 700;
+
+  color: #222;
+  padding: 1rem;
+  margin: 2rem 0;
+
+}
+
+/* PROJECT 1 SECTION */
+
+.project.box-container {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  flex: 1 1 30rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, rgba(0, 0, 0, .1));
+  border-radius: .5rem;
+  position: relative;
+}
+
+.project h2 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.project h1 {
+
+  font-size: 19px;
+  font-weight: 700;
+  color: #FF5E69;
+
+}
+
+.project span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+
+}
+
+.projects-cards-section a:hover {
+  color: #FF8A56;
+}
+
+.projects-cards-section a {
+  color: #000;
+}
+
+/* BOX SECTION */
+.box {
+  width: 300px;
+  padding-top: 80px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  /* kutu üzerine gelindiğinde geçiş efekti */
+}
+
+.box:hover {
+  transform: scale(1.1);
+  /* büyüt */
+  box-shadow: 0px 0px 50px #666;
+  /* tam ortadan gölge ekle */
+  z-index: 1;
+  /* kutuyu en üstte tut */
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid coral;
+  z-index: -1;
+  /* alta qalsn */
+  box-sizing: border-box;
+  opacity: 0;
+  transition: all 0.5s ease;
+  /* qutunun ustune geldyinde gecish effekti*/
+  transform: scale(0.5);
+  transform-origin: center;
+}
+
+.box:hover:before {
+  opacity: 1;
+  transform: scale(1);
+  /* büyüt */
+}
+
+ul {
+
+  list-style-type: square;
+
+}
+
+.box ul li {
+
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.box h6 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box p {
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #666;
+}
+
+
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  padding: 0 0;
+
+}
+
+.box {
+  border-bottom: 1px solid #333;
+}
+
+
+/* Projects 2 section */
+
+
+
+
+
+
+
+.results {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.projects-section h5 {
+  color: #B16CEA;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 167px;
+
+}
+
+.results h1 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+
+.my-button-projects {
+  background-color: #fff;
+  color: #222;
+
+  border: 2px solid #222;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 201px;
+  height: 58px;
+  margin-right: 38px;
+  font-weight: bold;
+
+}
+
+.my-button-projects:hover {
+  background-color: #FF8A56;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px gray;
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+
+.cart {
+  display: inline-block;
+  width: 350px !;
+  margin-right: 70px;
+
+  border-bottom: 1px solid black;
+  background-color: #fff;
+}
+
+
+
+.card_top img {
+  width: 350px;
+  height: 225px;
+}
+
+.card_bottom {
+  padding: 20px;
+}
+
+.card_bottom h6 {
+  color: #3C46FF;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+.card_bottom h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+
+}
+
+.projects-cards-section img {
+  border-radius: 10px;
+
+}
+
+.card_bottom a {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.card_bottom a img {
+  width: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+
+}
+
+.projects-cards-section {
+  display: flex;
+
+  margin-top: 70px;
+}
+
+.cart:last-child {
+  margin-right: 0;
+}
+
+
+.control-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 145px;
+  width: ;
+}
+
+.control-btns {
+  width: 59px;
+  height: 59px;
+}
+
+.control-btn button:last-child {
+  margin-right: 40px;
+}
+
+
+/* blog start */
+
+.blog-globlal {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.blog-left p {
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFA84B;
+  letter-spacing: 5px;
+
+}
+
+.blog-left h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blogs {
+
+  background-color: #000;
+  margin-top: -152px;
+  height: 100%;
+}
+
+.blog-left a {
+  color: #fff;
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+.blog-left a:hover {
+  color: var(--sari);
+}
+
+.blog-left img {
+  color: #fff;
+  width: 14px;
+
+
+
+}
+
+.blog-right {
+  padding-top: 59px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 33px;
+}
+
+.blog-right p {
+  color: #999;
+  font-weight: 700;
+}
+
+.blog-right h1 {
+  color: #eee;
+  padding-top: 26px;
+  padding-bottom: 39px;
+  font-weight: 700;
+  font-size: 24px;
+  align-items: center;
+  line-height: 40px;
+}
+
+.blog-right a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 10px;
+
+}
+
+.blog-right a:hover {
+  color: var(--sari);
+}
+
+
+/* blog end */
+
+
+
+
+
+
+
+
+
+/* Product Designer start */
+
+
+.designer-global{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 165px;
+}
+.designer-left p{
+font-weight: 700;
+font-size: 18px;
+color: #FF5E69;
+
+letter-spacing: 2.2px;
+}
+
+.designer-left h1{
+  font-weight: 700;
+font-size: 36px;
+}
+.designer-right{
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+
+.desinger-foto1-2{
+  display: flex;
+
+}
+.desinger-global{
+  display: flex;
+  padding-top: 115px;
+}
+.desinger-foto-1, .desinger-foto-2, .desinger-foto-3, .desinger-foto-4 {
+  margin: 0 4px;
+}
+
+.desinger-foto-4 {
+  margin-top: 14px;
+
+}
+
+/* Product Designer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media qeuery start */
+@media(max-width:1100) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media(max-width:1100) {
+  html {
+    font-size: 60%;
+  }
+}
+
+
+
+
+@media(max-width:992px) {
+  .trusdet-companies{
+    padding: 0 0;
+  }
+
+  .home .intro-right {
+    padding-top: 80px;
+    padding-left: 0px;
+    width: 200px;
+
+  }
+
+  .home .intro-left h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    ;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.3;
+  }
+
+  .home .intro-right img {
+    width: 100%;
+  }
+
+  html {
+    font-size: 55%;
+
+  }
+
+  header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .cart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .projects-cards-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .cart {
+
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .cart:nth-child(3) {
+
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .designer-global {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .designer-left, .designer-right {
+    width: 100%;
+  }
+.designer-left h1{
+  padding-top: 14px;
+}
+.designer-right p{
+  padding-top: 34px;
+}
+.desinger-global {
+  flex-wrap: wrap;
+ 
+
+
+}
+
+/* .desinger-foto3-4{
+  display: flex;
+  text-align: center; */
+  .desinger-foto-1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desinger-foto-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desinger-foto-3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desinger-foto-4 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desinger-foto1-2 {
+    display: block;
+  }
+
+  .desinger-foto-2 {
+    margin-top: 5px;
+  }
+
+  .desinger-foto3-4 {
+    margin-top: 5px;
+  }
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nebi {
+  margin: 0 0 !important;
+}
+
+.card {
+  width: 350px;
+}
+
+.card img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+  .home {
+    text-align: center;
+  }
+
+  .home .intro-left h1 {
+    font-size: 30px !important;
+    font-weight: 700;
+    ;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.3;
+
+  }
+
+  header .fa-bars {
+    display: block;
+
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    clip-path: polygon(0 0, 100% 0, 0 0);
+    transition: all.5 ease-out;
+    opacity: 0;
+    /*menu gizled*/
+    pointer-events: none;
+
+  }
+
+  .home {
+    padding-top: 10rem;
+
+  }
+
+  .book-a-call {
+    padding-left: 45px;
+  }
+
+  header #toggler:checked~.navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: all .5s ease-out !important;
+    opacity: 1;
+    /*Menu ac*/
+    pointer-events: auto;
+    /*Menudeki linklere kiliklemeyi aktiv ele*/
+    animation: fadeIn .5s ease-out;
+    /* Gecikme animasyon */
+  }
+
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    display: block;
+
+  }
+
+  .projects {
+    padding: 0 25px;
+  }
+
+  .home .intro-left h1 {
+    font-size: 5rem;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .intro-right img {
+
+    margin-right: 180px;
+    /* opsiyonel */
+    width: 350px !important;
+    margin: 0;
+    text-align: center;
+  }
+
+  .trusdet-companies {
+    padding-left: 90px !important;
+  }
+
+  .boxs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 50px;
+  }
+
+  .results .my-button-form {
+    padding: 20px 60px;
+    margin: 0 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .results h1 {
+    font-size: 32px;
+
+  }
+
+  .results h6 {
+    font-size: 16px;
+  }
+
+  .cart {
+    text-align: center !important;
+  }
+
+  .cart {
+    margin-right: 0;
+  }
+
+  .projects-cards-section {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-globlal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .services .trusted-company{
+    padding: 12px 22px;
+
+  }
+  .designer-left, .designer-right {
+    width: 100%;
+  }
+.designer-left h1{
+  padding-top: 14px;
+}
+.designer-right p{
+  padding-top: 34px;
+}
+.desinger-foto1-2{
+flex-direction: column;
+text-align: center;
+}
+.desinger-foto-2 img{
+width: 338px;
+height: 450px;
+}
+.desinger-foto3-4{
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.desinger-global{
+
+  text-align: center;
+  align-items: center;
+  
+  padding: 50px 8px !important;
+  margin: 0 0 !important;
+}
+
+
+.desinger-foto-2 {
+  padding-top: 14px;
+}
+.desinger-foto-3 {
+  padding-top: 14px;
+}
+.desinger-foto-4 {
+  padding-top: 14px;
+}
+
+
+
+
+.desinger-foto3-4 .desinger-foto-3  img{
+  border-radius: 10px ;
+
+}
+
+.desinger-foto3-4 .desinger-foto-4  img{
+  border-radius: 10px ;
+
+}
+.desinger-foto1-2 .desinger-foto-1  img{
+  border-radius: 10px ;
+
+}
+.desinger-foto1-2 .desinger-foto-2  img{
+  border-radius: 10px ;
+  width: 100% ;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Product Designer start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:450px) {
+  html {
+    font-size: 50%;
+
+  }
+
+  .home {
+    padding: 80px 0;
+  }
+
+  .intro-left h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .intro-left p {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .book-a-call {
+    padding: 34px;
+    text-align: center;
+  }
+
+  .boxs {
+    text-align: center !important;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .trusdet-companies {
+    padding-left: 14rem;
+  }
+
+  .headings2 {
+    font-size: 3.5rem;
+  }
+
+  .box {
+    padding-top: 30px;
+  }
+
+  .results {
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: -50px;
+  }
+
+  .results h1 {
+
+    font-size: 32px;
+
+  }
+
+  .projects h5 {
+
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .projects form {
+    padding-top: 20px;
+    padding-left: 80px;
+  }
+  .designer-left, .designer-right {
+    width: 100%;
+  }
+.designer-left h1{
+  padding-top: 14px;
+}
+.designer-right p{
+  padding-top: 34px;
+}
+
+}
+
+
+
+@media(max-width:1031) {
+  html {
+    font-size: 40%;
+  }
+}
+
+
+
+
+/* Media Query Ends */
